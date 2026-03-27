@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Programa</title>
     <style>
+
         body {
             background-color: bisque;
             color:blue /* Comentário em CSS */
@@ -16,16 +17,25 @@
         }
 
     </style>
+
 </head>
 <body>
+
     <h1>Olá, Mundo</h1> <!-- Isso é um comentário-->
     <p> Ja me livrei da maldição.</p>
+    
     <script>
 
-        /*window.alert ("Minha Primeira Mensagem")
-        window.confirm('Esta gostando do JS?')*/
-        window.prompt ('Qual é o seu nome?')
+        var nome= window.prompt("Qual o seu nome ?")
+        window.alert('Seja bem-vindo, ' +nome + '.')
+
+        /*cadastro rápido*/
+
+        let nomelivro= window.prompt('Digite o nome do livro: ')
+        let anopublicação= window.prompt('Digite o ano de publicação: ')
+        let disponível= window.confirm('O livro está disponível?')
 
     </script>
+
 </body>
 </html>
