@@ -1,0 +1,34 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    text-align: baseline;
+
+    background: rgb(87, 83, 79);
+    color: white;
+    display: flex;   
+}
+
+.jornada{
+    text-align: center;
+}
+.chapter-title{
+    text-align: center;
+    font-size: 45px;
+    margin: 0 0 0 0;
+    font-family: 'Dancing Script';
+}
+
+.button-choice{
+
+}
+
+button{
+    background-color: rgb(131, 131, 235);
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+}
