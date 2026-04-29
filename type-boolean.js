@@ -10,3 +10,5 @@ console.log(texto1 === texto2);
 let int = numero;
 
 console.log("Qual seu número de identificação?: ");
+
+    

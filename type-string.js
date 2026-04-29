@@ -7,3 +7,4 @@ const citacao = "Meu nome é: ";
 const meuNome = "Miguel Caroano";
 
 console.log(citacao + meuNome);
+
