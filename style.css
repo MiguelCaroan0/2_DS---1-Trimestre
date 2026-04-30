@@ -11,6 +11,10 @@ body{
     display: flex;   
 }
 
+main{
+    padding-top: 40px;
+}
+
 .jornada{
     text-align: center;
 }
@@ -19,16 +23,37 @@ body{
     font-size: 45px;
     margin: 0 0 0 0;
     font-family: 'Dancing Script';
-}
+    
+    text-shadow: 
+        -3px -2px  black,  
+         2px -2px  black,
+        -2px  2px  black,
+         2px  2px  black;
+}   
 
-.button-choice{
-
-}
-
-button{
-    background-color: rgb(131, 131, 235);
-    color: white;
+.pergunta-de-escolha{
+    margin: 0 0 15px 0;
+    font-size: 30px;
     font-family: 'Dancing Script';
-    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+    text-shadow: 
+        -2px -1px  black,  
+         1px -1px  black,
+        -1px  2px  black,
+         1px  1px  black;
+}
+
+.btn-proximo{
+    background-color: rgb(131, 131, 235);
+    color: black;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+    font-weight: bold;
+
+
     margin: 0 10px 0 10px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
