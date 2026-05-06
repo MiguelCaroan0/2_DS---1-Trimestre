@@ -7,6 +7,7 @@
 
     main{
         padding-top: 40px;
+       
     }
 
     .chapter-title{
@@ -24,10 +25,14 @@
 
     .passo.ativo{
         display: block;
+        width: 1040px;
+        margin: auto;
     }
 
     .passo{
         display: none;
+        width: 940px;
+        margin: auto;
     }
 
     .pergunta-de-escolha{
