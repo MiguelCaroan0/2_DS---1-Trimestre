@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+
+    <title>A lenda de Leo</title>
+</head>
+<body>
+
+    <main>
+      
+          <h1 class="chapter-title">O menino do grimório</h1>
+        
+        <div class="passo ativo" id="passo-0">
+
+            <p  id="iniciation-question">Está preparado para enfrentar uma história repleta de medo e agonia???</p>
+            <img src="old-grimory-start-image.png" alt="Imagem do Grimório Santo">
+            <button class="btn-proximo" data-proximo="inicio">Vamos nessa!</button>
+            <button class="btn-proximo" data-proximo="final-cagao">Nem Morto!</button>
+        </div>
+
+        <div class="passo" id="passo-final-cagao">
+            <p>Cagão!</p>
+            <button class="btn-proximo" data-proximo="0">Segunda chance ?</button>
+        </div>
+        
+        <div class="passo" id="passo-inicio">
+            
+            <p>
+                Tudo começa em HoldyHein, um pequeno povoado localizado no interior do império romano. 
+                Nessa cidade, vivia Leo, o filho de um dos últimos grandes magos do mundo. 
+                Seu pai, antes de ser capturado por uso ilegal de mágia, entregou a seu filho um grimório centenário trancado. 
+                Leo, por mais que tentasse, nunca conseguiu destrancar o livro. 
+                Porém, numa sexta-feira de lua cheia, seu grimório começou a brilhar... o objeto pulsava com uma energia muito estranha, 
+                Leo sabia que sua vida mudaria apartir daquele instante...
+            </p>
+            
+            <p class="pergunta-de-escolha">O que Leo deveria fazer?</p>
+            
+            <button  class="btn-proximo" data-proximo="1">Abrir o grimório</button>
+            <button class="btn-proximo" data-proximo="2">Gritar por ajuda</button>
+
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Após abrir o grimório, uma luz super intensa tomou conta de toda a casa...</p>
+            <button class="btn-proximo" data-proximo="3">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Antes mesmo que Leo conseguisse gritar por ajuda, o grimório se abriu sozinho e emanou uma luz super intensa que tomou conta de toda a casa...</p>
+            <button class="btn-proximo" data-proximo="3">Continuar</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+
+            <p>
+                A forte luz azul estava sendo emanada por uma frase escrita que dizia: “O poder sempre encontra seu herdeiro” 
+                A cada segundo que se passava as páginas do grimório iam brilhando mais e mais, como um fogo insaciável. Ao mesmo tempo, alguém batia a porta de sua casa...
+            </p>
+
+            <p class="pergunta-de-escolha">O que Leo deveria fazer?</p>
+
+            <button  class="btn-proximo" data-proximo="4">Continuar lendo o grimório</button>
+            <button class="btn-proximo" data-proximo="5">Fechar o grimório</button>
+
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>
+                Antes de conseguir terminar de ler, símbolos mágicos sairiam do grimório e começariam a flutuar 
+                ao redor de Leo cada vez mais rápidos até voarem em sua direção e grudarem na pele de Leo como tatuagens ...</p>
+            <button class="btn-proximo" data-proximo="6">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>
+                Ao tentar fechar o grimório, símbolos mágicos sairiam do grimório e flutuariam ao redor de Leo cada vez mais rápidos
+                até voarem em sua direção e grudarem na pele de Leo como tatuagens...
+            </p>
+            <button class="btn-proximo" data-proximo="6">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+
+            
+             <p>
+                As batidas na porta ficavam cada vez mais altas... 
+                Leo, mesmo zonzo e sem entender o que estava acontecendo, 
+                dá uma espiadinha pela janela e percebe que eram guardas do exército de romano anti-mágia que foram atraídos pela luz reluzente emanada pelo grimório. 
+            </p>
+            
+            <p class="pergunta-de-escolha">O que Leo deveria fazer?</p>
+
+            <button  class="btn-proximo" data-proximo="7">Abrir a porta</button>
+            <button class="btn-proximo" data-proximo="8">Fugir deles</button>
+
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>
+               Ao abrir a porta, os guardas fariam várias e várias perguntas até decidirem ir embora... 
+               Porém, quando já estavam saindo, os símbolos mágicos em sua pele c   omeçaram a brilhar novamente e Leo foi rapidamente cercado acusado de uso ilegal de mágia. 
+               Antes mesmo de conseguir se explicar, os guardas começaram a agredir Leo violentamente...
+            </p>
+            <button class="btn-proximo" data-proximo="9">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>
+                Se você tentasse fugir, seu Adalberto, o vizinho ranzinza de Leo, o veria e alertaria os guardas que, com extrema rapidez, o cercariam e o acusariam de uso ilegal de mágia. 
+                Antes mesmo de você conseguir se explicar, os guardas começaram a agredir Leo violentamente...
+            </p>
+            <button class="btn-proximo" data-proximo="9">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+
+            
+            <p>
+                Enquanto os guardas o agrediam e xingavam, várias memórias de seu pai e de todos os antigos usuários do grimório começaram a invadir a mente de Leo desenfreadamente.  
+                No meio desse turbilhão de memórias, uma voz pesada ecoa por sua mente dizendo: “Aceite seu poder interior”...
+            </p>
+
+            <p class="pergunta-de-escolha">O que Leo deveria fazer?</p>
+
+            <button  class="btn-proximo" data-proximo="10">Aceitar</button>
+            <button class="btn-proximo" data-proximo="11">Recusar</button>
+
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>
+                Se você aceitar seu poder, Leo, mesmo sem saber exatamente como, canalizaria seu poder mágico e soltaria uma rajada poderosa, desacordando todos os guardas ao seu redor.
+            </p>
+            <button class="btn-proximo" data-proximo="12">Continuar</button>
+        </div> 
+
+        <div class="passo" id="passo-11">
+            <p>
+                Se você recusar, Leo acabará desmaiando por conta das pancadas. Porém, quando os guardas estavam preste a prendê-lo, <br>
+                uma força mágica possuiu seu corpo e derrotou os guardas um a um, devolvendo a consciência de Leo logo após.  <br>
+                (OBS: A voz te chamou de cagão!)
+             </p>
+            <button class="btn-proximo" data-proximo="12">Continuar</button>
+        </div> 
+
+        <div class="passo" id="passo-12">
+
+            
+            <p>
+                Leo, com seu corpo tremendo, percebeu que agora ele possuía a mágia ancestral que sempre sonhou ter... 
+                Porém, ele sabia que seria caçado e preso igual seu pai. Leo precisava urgentemente de conselhos e sabia que somente 2 pessoas podiam ajudá-lo: <br> 
+                sua avó (que também já foi uma maga de prestígio no passado) ou seu tio (o mago mais procurado de Roma).
+            </p>
+
+            <p class="pergunta-de-escolha">O que Leo deveria fazer?</p>
+
+            <button  class="btn-proximo" data-proximo="13">Visitar sua avó</button>
+            <button class="btn-proximo" data-proximo="14">Visitar seu tio</button>
+
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>
+                Ao visitar sua avó, Leo descubriu todo o passado dela como maga e seus arrependimentos por fazer parte do grupo de magos Revolucionários, 
+                que são um grupo de magos rebeldes a política ditadorial de Roma. 
+                Sua avó, receosa que Leo seguisse seus passos e acabasse solitária igual a ela, recomendou que ele não seguisse o caminho da mágia. 
+                Mas Leo, cegado pela mágia que sempre sonhou ter, decidiu ignorar a sua avó e se aliar aos Revolucionários.
+            </p>
+            <button class="btn-proximo" data-proximo="15">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>
+                Ao visitar seu tio, Leo descobriu que ele é o atual Comandante Geral do grupo de magos Revolucionários, que são um grupo de magos rebeldes a política ditadorial de Roma. 
+                Seu tio também lhe contou todos os atos de bravura de seu pai, o antigo Comandante Geral. 
+                Leo, inspirado pelas histórias de heroísmo de seu pai e seu tio, decidiu se aliar à causa dos Revolucionários. 
+            </p>
+            <button class="btn-proximo" data-proximo="15">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+
+            
+            <p> 
+                Para se tornar um Revolucionário, Leo precisaria se submeter a uma sequência de teste avaliados por capitães da guarda Revolucionária.
+                Lendo todo seu grimório, Leo encontrou escritas que diziam onde havia algumas bases dos Revolucionários e, perto de HoldyHein,
+                havia dois grandes centros de operações Revolucionárias...
+            </p>
+
+            <p class="pergunta-de-escolha">Para onde Leo deveria ir?</p>
+
+            <button  class="btn-proximo" data-proximo="16">Ir para Basince</button>
+            <button class="btn-proximo" data-proximo="17">Ir para Soul Sice</button>
+
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>
+                Basince ficava a 200km de distância de HoldyHein, Leo sabia que seu percurso não seria fácil e que ele teria que se superar a cada novo desafio que aparecesse. 
+                Mesmo parencendo impossível, Leo não perdeu sua determinação e seguiu firme em seu objetivo...
+            </p>
+             <button class="btn-proximo" data-proximo="18">Continuar</button>
+        </div>
+        
+        <div class="passo" id="passo-17">
+            <p>    
+                Soul Sice ficava a 200km de distância de HoldyHein, Leo sabia que seu percurso não seria fácil e que ele teria que se superar a cada novo desafio que aparecesse. 
+                Mesmo parencendo impossível, Leo não perdeu sua determinação e seguiu firme em seu objetivo...
+            </p>
+            <button class="btn-proximo" data-proximo="18">Continuar</button>
+        </div>
+            
+        <div class="passo" id="passo-18">
+              <p>FIM! <br> Continua no próximo livro ;)</p>
+        </div>
+
+    </main>
+
+    <script src="java.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+    body{
+        margin: 0 0 0 0;
+        background: rgb(79, 63, 53);
+        color: white;
+        text-align: center;
+    }
+
+    main{
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    main img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        padding-bottom: 12px;
+    }
+
+    .chapter-title{
+        text-align: center;
+        font-size: 45px;
+        margin: 0 0 0 0;
+        font-family: 'Eater';
+        color:rgb(105, 115, 125);
+        text-shadow: 
+            -1px -1px  black,  
+            1px -1px  black,
+            -1px  1px  black,
+            1px  1px  black;
+    }  
+    
+    #iniciation-question{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    .passo.ativo{
+        display: block;
+        width: 1040px;
+        margin: auto;  
+    }
+
+    
+
+    .passo{
+        display: none;
+        width: 940px;
+        margin: auto;
+
+        background: rgb(105, 115, 125);
+        border-radius: 20px;
+        padding: 20px;
+        border-left: 4px solid black;
+        border-right: 4px solid black;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        
+    }
+
+    .pergunta-de-escolha{
+        margin: 0 0 15px 0;
+        font-size: 35px;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+        font-style: italic;
+        color: black;
+    }
+
+    .btn-proximo{
+        background-color: rgb(131, 131, 235);
+        color: black;
+        font-family: 'Dancing Script';
+        font-size: 28px;
+        font-weight: bold;
+
+        margin: 0 10px 0 10px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    
+    .btn-proximo:hover{
+        border: 2px solid white;
+    }
+
+
+
+
